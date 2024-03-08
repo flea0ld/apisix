@@ -520,6 +520,8 @@ plugins:                           # plugin list (sorted by priority)
   - inspect                        # priority: 200
   #- log-rotate                    # priority: 100
   # <- recommend to use priority (0, 100) for your custom plugins
+  - redirect-example               # priority: 81
+  - header-filter-example          # priority: 80
   - example-plugin                 # priority: 0
   #- gm                            # priority: -43
   #- ocsp-stapling                 # priority: -44
